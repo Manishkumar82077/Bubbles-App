@@ -41,9 +41,12 @@ A fun interactive game where users click colored circles to score points. The ga
 
 ---
 
-## Screenshot
+## 🖼️ Screenshot
 
-*(Add a screenshot of your game here)*
+> Add a screenshot in the repository at `screenshot/moodly.png` to display below.
+![ Bubbles App  Preview](screenshot/screenshot_1.png)
+![ Bubbles App  Preview](screenshot/screenshot_2.png)
+  ---
 
 ---
 
