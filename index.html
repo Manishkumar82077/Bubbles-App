@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bubbles App</title>
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   
+  <h2>Bubbles App 🎯</h2>
+
+  <!-- Score & Timer on Top -->
+  <div class="score-container">
+    <div id="score" class="score-board">Score: 0</div>
+    <div id="timer" class="score-board">Time: 30s</div>
+    <div id="best" class="score-board">Best Score: 0</div>
+  </div>
+
+  <!-- Demo Popup -->
+  <div id="demoPop" class="demo-pop">
+    <p>🎯 Click the circles quickly! You have 15 seconds to score as much as possible.</p>
+    <button id="startDemoBtn">Start Game</button>
+  </div>
+
+  <div class="box">
+    <div class="row">
+      <div class="circle gray" data-index="0">0</div>
+      <div class="arrow" data-index="0">
+        <div class="arrow-head"></div>
+        <div class="arrow-tail"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="circle blue" data-index="1">0</div>
+      <div class="arrow" data-index="1">
+        <div class="arrow-head"></div>
+        <div class="arrow-tail"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="circle red" data-index="2">0</div>
+      <div class="arrow" data-index="2">
+        <div class="arrow-head"></div>
+        <div class="arrow-tail"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="circle green" data-index="3">0</div>
+      <div class="arrow" data-index="3">
+        <div class="arrow-head"></div>
+        <div class="arrow-tail"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reset-container">
+    <button id="startBtn">▶ Start Game</button>
+    <button id="stopBtn" style="display:none;">⏸ Stop Game</button>
+    <button id="resetBtn">⟳ Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
